@@ -1,0 +1,28 @@
+{
+    "Search Config":{
+        "-wr": "https://www.wordreference.com/enfr/" ,
+        "-yt": "https://www.youtube.com/results?search_query=" ,
+        "-gi": "https://www.google.com/search?safe=active&sca_esv=&q= &udm=2&fbs=AEQNm0Aa4sjWe7Rqy32pFwRj0UkWd8nbOJfsBGGB5IQQO6L3J03RPjGV0MznOJ6Likin94pT_oR1DTSof42bOBxoTNxGMwEeUq17XDDUMegSIEO3KFroRcVZLfatAKBzHB2GC9DT8lE2xPXAjr-j38xxSTkMPHMlB-oQCnrLCflDrY1so-WFd_yuZCQztuM9KT0nCzigcsiQkoxVYxZIkz1iLkRqpOfohQ&sa=X&ved=2ahUKEwje9bKizfOKAxVbAHkGHSRjKEUQtKgLegQICRAB&biw=1912&bih=956&dpr=1",
+        "-irs": "https://www.irs.gov/site-index-search?search=",
+        "-so": "https://stackoverflow.com/search?q=",
+        "-gh": "https://github.com/search?q= &type=repositories",
+        "-amz": "https://www.amazon.ca/s?k=",
+        "-wiki": "https://en.wikipedia.org/wiki/",
+        "-def": "https://www.dictionary.com/browse/",
+        "-IMDB": "https://www.imdb.com/find?q=",
+        "-NotSafe": "https://www.google.com/search&q="
+    },
+
+    "Shortcuts":{
+        "!yt": "https://www.youtube.com",
+        "!subs": "https://www.youtube.com/feed/subscriptions",
+        "!help": "https://github.com/QuietALigitDev/Advanced-Search-Bar/tree/main",
+        "!spotify": "https://open.spotify.com/",
+        "!bbc": "https://www.bbc.com/",
+        "!gc": "https://classroom.google.com/",
+        "!slides": "https://docs.google.com/presentation/u/0/",
+        "!docs" : "https://docs.google.com/document/u/0/",
+        "!sheets": "https://docs.google.com/spreadsheets/u/0/",
+        "!drive": "https://drive.google.com/drive/home?ths=true"
+    }
+}
