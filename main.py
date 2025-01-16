@@ -108,11 +108,11 @@ class SpotlightSearch(QMainWindow):
         y = (screen_geometry.height() - self.height()) // 2
         self.move(x, y)
 
-    def reload_theme_and_style(self):
-        self.LoadTheme()
-        self.setStyleSheet(Theme)
-        self.hide()
-        self.text_box.clear()
+    # def reload_theme_and_style(self):
+    #     self.LoadTheme()
+    #     self.setStyleSheet(Theme)
+    #     self.hide()
+    #     self.text_box.clear()
         
     
     def close_dialog(self):
@@ -125,9 +125,9 @@ class SpotlightSearch(QMainWindow):
             print(f"end:{url}")
             return
 
-        if url == "!reload" or url == "!Reload":
-            QTimer.singleShot(0, self.reload_theme_and_style)
-            return
+        # if url == "!reload" or url == "!Reload":
+        #     QTimer.singleShot(0, self.reload_theme_and_style)
+        #     return
 
         if any(url.endswith(suffix) for suffix in [".com", ".ca", ".org", ".net", ".edu", ".gov", ".io", ".tv"]):
             # If it ends with a domain suffix, treat it as a URL
